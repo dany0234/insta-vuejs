@@ -1,0 +1,95 @@
+
+.login-container{
+
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.login-logo{
+    padding: 20px;
+
+
+}
+
+.login-container-button{
+    background-color: #0095f6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    height: 40px;
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    width: auto;
+}
+
+.login-input{
+
+    background-color: #eee;
+    border: 1px solid #bebebe;
+    border-radius: 2px;
+    height: 40px;
+    
+}
+
+.login-or{
+    border-bottom: 1px solid #dbdbdb;
+    line-height: .1em;
+    margin: 20px 0 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.login-or-span{
+    background: #fff;
+    color: #727272;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.login-header{
+    margin-bottom: 15px;
+
+
+}
+
+.forgot-password{
+    text-align: right;
+    color: #0095f6;
+    font-size: 14px;
+}
+
+.login-footer{
+    margin-top: 15px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.login-footer-button{
+
+    color: #0095f6;
+
+}
+
+.img-profile-preview{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+
+}
